@@ -1,0 +1,176 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #2B2B2B;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0c0909;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+nav ul li {
+    margin: 5px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: #D72638;
+    transform: scale(1.1);
+}
+
+/* Header / Hero */
+header {
+    background-image: url('/Users/students/Downloads/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 120px 20px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    border-bottom: 6px solid #D72638;
+}
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+header p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Page Section */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Section Titles */
+section h2 {
+    color: #D72638;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    border-bottom: 2px solid #D72638;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+section ul, section li {
+    margin: 10px 0;
+    list-style: disc inside;
+}
+
+/* Images */
+section img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* Cards for lessons, stories, words */
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    color: #D72638;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+.card p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #0c0909;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    border-top: 6px solid #D72638;
+}
+footer a {
+    color: #D72638;
+    text-decoration: none;
+    font-weight: 600;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+a.button {
+    display: inline-block;
+    background-color: #D72638;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+a.button:hover {
+    background-color: #D28B1F;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header p {
+        font-size: 1.2rem;
+    }
+    section {
+        padding: 15px;
+    }
+}
