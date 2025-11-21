@@ -36,20 +36,20 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 nav ul li a:hover {
-    background-color: #D72638;
+    background-color: #7a09a0;
     transform: scale(1.1);
 }
 
 /* Header / Hero */
 header {
-    background-image: url('/Users/students/Downloads/hero-bg.jpg');
+    background-image: url('/Users/students/Downloads/c4648fc0b34a9c09345c41794b04e16e.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
     color: white;
     padding: 120px 20px;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
-    border-bottom: 6px solid #D72638;
+    text-shadow: 2px 2px 8px rgba(101, 22, 22, 0.6);
+    border-bottom: 6px solid #d72626;
 }
 header h1 {
     font-family: 'Playfair Display', serif;
